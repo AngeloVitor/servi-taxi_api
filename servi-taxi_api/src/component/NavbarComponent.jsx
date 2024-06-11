@@ -5,7 +5,7 @@ import logo from '../assets/logo.svg';
 
 export const NavbarComponent = () => {
   return (
-    <Navbar bg="light" expand="lg" className='mx-5'>
+    <Navbar bg="light" expand="lg" className="mx-5">
       <Navbar.Brand href="#">
         <img
           src={logo} // Substitua pelo caminho da sua imagem
@@ -30,5 +30,5 @@ export const NavbarComponent = () => {
         </Nav>
       </Navbar.Collapse>
     </Navbar>
-  )
-}
+  );
+};

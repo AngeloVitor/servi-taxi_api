@@ -1,12 +1,13 @@
 import React from 'react';
-import '@fortawesome/fontawesome-free/css/all.min.css';
 import {NavbarComponent} from './component/NavbarComponent'
+import {ServiceComponent} from './component/ServiceComponent'
 
 
 export const App = () => {
   return (
     <div>
       <NavbarComponent />
+      <ServiceComponent />
     </div>
   );
 };
