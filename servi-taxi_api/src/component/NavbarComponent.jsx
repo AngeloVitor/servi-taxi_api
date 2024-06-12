@@ -5,17 +5,17 @@ import logo from '../assets/logo.svg';
 
 export const NavbarComponent = () => {
   return (
-    <Navbar bg="light" expand="lg" className="container">
+    <Navbar bg="light" expand="lg" fixed='top' className='px-5 py-2 navbar-center'>
       <Navbar.Brand href="#">
         <img
-          src={logo} // Substitua pelo caminho da sua imagem
+          src={logo}
           alt="Servitaxi Logo"
           className="d-inline-block align-top"
         />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="ml-auto w-100 justify-content-around">
+        <Nav className="ml-auto w-100">
           <Nav.Link href="#">Home</Nav.Link>
           <Nav.Link href="#">Serviços</Nav.Link>
           <Nav.Link href="#">Nossa História</Nav.Link>
@@ -30,5 +30,5 @@ export const NavbarComponent = () => {
         </Nav>
       </Navbar.Collapse>
     </Navbar>
-  );
-};
+  )
+}

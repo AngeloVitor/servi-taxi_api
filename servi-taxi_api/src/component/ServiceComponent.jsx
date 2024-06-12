@@ -95,11 +95,11 @@ export const ServiceComponent = () => {
   ];
   return (
     <Container>
-      <h2 className="text-center my-4">Serviços</h2>
+      <h2 className="text-center my-4 section-title">Serviços</h2>
       <Row>
         {services.map((service, index) => (
-          <Col key={index} sm={6} md={4} lg={3} className="mb-4">
-            <Card className="h-100">
+          <Col key={index} sm={6} md={5} lg={3} className="mb-4">
+            <Card className="h-100 align-items-center linear-gradient card">
               <Card.Img
                 variant="top"
                 src={service.img}

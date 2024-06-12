@@ -1,5 +1,48 @@
+body {
+  padding-top: 60px; /* Ajuste este valor conforme a altura do seu Navbar */
+}
+
 .card-img-top {
-  width: 100%;
+  width: 50%;
   height: 150px;
   object-fit: contain; 
+}
+
+.background {
+  background-image: url('../assets/background.svg');
+  background-color: #d5d5d5;
+  background-size: cover;
+  background-position: center;
+}
+
+.linear-gradient  {
+  background: linear-gradient(360deg, #FFFFFF 0%, #CDE7E8 100%);
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+}
+
+.section-title::before,
+.section-title::after {
+  content: '';
+  flex: 1;
+  border-bottom: 5px solid #002e63;
+  margin: 0 30px;
+}
+
+.section-title span {
+  font-weight: bold;
+  font-size: 1.5em; 
+  color: #002e63;  
+}
+
+.card {
+  box-shadow:  10px 10px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05); 
 }
