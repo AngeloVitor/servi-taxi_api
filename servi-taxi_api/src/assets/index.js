@@ -14,6 +14,9 @@ import ticketTaxi from './ticketTaxi.svg';
 import frontDesk from './frontDesk.svg';
 import cam from './cam.svg';
 import family from './family.svg';
+import photolayout1 from './photolayout1.svg'
+import photolayout2 from './photolayout2.svg'
+import photolayout3 from './photolayout3.svg'
 
 
 export {
@@ -33,4 +36,7 @@ export {
   frontDesk,
   cam,
   family,
+  photolayout1,
+  photolayout2,
+  photolayout3,
 }

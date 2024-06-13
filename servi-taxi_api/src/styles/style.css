@@ -1,7 +1,3 @@
-body {
-  padding-top: 60px; /* Ajuste este valor conforme a altura do seu Navbar */
-}
-
 .card-img-top {
   width: 50%;
   height: 150px;
@@ -45,4 +41,18 @@ body {
 
 .card:hover {
   transform: scale(1.05); 
+}
+
+.custom-carousel-img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover; 
+}
+
+.navbar-custom {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Certifique-se de que o Navbar fique acima de outros elementos */
+  background-color: rgba(255, 255, 255, 0.0); 
 }

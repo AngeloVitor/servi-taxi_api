@@ -2,10 +2,11 @@ import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from '../assets/logo.svg';
+import '../styles/style.css';
 
 export const NavbarComponent = () => {
   return (
-    <Navbar bg="light" expand="lg" fixed='top' className='px-5 py-2 navbar-center'>
+    <Navbar expand="lg" className='px-5 py-2 navbar-center navbar-custom'>
       <Navbar.Brand href="#">
         <img
           src={logo}
