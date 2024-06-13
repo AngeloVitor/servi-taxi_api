@@ -15,7 +15,7 @@ import {
   ticketTaxi,
   frontDesk,
   cam,
-  family
+  family,
 } from '../assets/index.js';
 import '../styles/style.css';
 
@@ -62,32 +62,32 @@ export const ServiceComponent = () => {
       text: 'Atendimento 24 horas...Courier para entrega de encomendas e malotes em qualquer parte do estado.',
     },
     {
-      img:taxPrice,
+      img: taxPrice,
       title: 'Atendimento 24 horas',
       text: 'Não cobramos taxas de chamada, hora marcada e porta malas.',
     },
     {
-      img:diferenceCar,
+      img: diferenceCar,
       title: 'Atendimento 24 horas',
       text: 'Taxímetro regulamentado pela Prefeitura Municipal e aferido pelo INMETRO.',
     },
     {
-      img:ticketTaxi,
+      img: ticketTaxi,
       title: 'Atendimento 24 horas',
       text: 'Ticket com informações detalhadas do taxímetro como horário inicial e final, km percorrido e valor.',
     },
     {
-      img:frontDesk,
+      img: frontDesk,
       title: 'Atendimento 24 horas',
       text: 'Recepção em aeroportos e rodoviárias, assim como embarques e desembarques.',
     },
     {
-      img:cam,
+      img: cam,
       title: 'Atendimento 24 horas',
       text: 'Passeio turístico (Sightseeing).',
     },
     {
-      img:family,
+      img: family,
       title: 'Atendimento 24 horas',
       text: 'Transporte de crianças para escolas, festas e show com segurança total.',
     },
@@ -95,7 +95,9 @@ export const ServiceComponent = () => {
   ];
   return (
     <Container>
-      <h2 className="text-center my-4 section-title">Serviços</h2>
+      <div className="text-center my-4 section-title">
+        <h2>Serviços</h2>
+      </div>
       <Row>
         {services.map((service, index) => (
           <Col key={index} sm={6} md={5} lg={3} className="mb-4">

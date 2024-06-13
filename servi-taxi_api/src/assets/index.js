@@ -17,6 +17,7 @@ import family from './family.svg';
 import photolayout1 from './photolayout1.svg'
 import photolayout2 from './photolayout2.svg'
 import photolayout3 from './photolayout3.svg'
+import downloadApp from './downloadApp.svg';
 
 
 export {
@@ -39,4 +40,5 @@ export {
   photolayout1,
   photolayout2,
   photolayout3,
+  downloadApp,
 }

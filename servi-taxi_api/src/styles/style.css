@@ -45,7 +45,7 @@
 
 .custom-carousel-img {
   width: 100%;
-  height: 500px;
+  height: 800px;
   object-fit: cover; 
 }
 
@@ -54,5 +54,22 @@
   top: 0;
   width: 100%;
   z-index: 1000; /* Certifique-se de que o Navbar fique acima de outros elementos */
-  background-color: rgba(255, 255, 255, 0.0); 
+  background-color: rgba(255, 255, 255, 0.5); 
+}
+
+.carousel-container {
+  position: relative;
+}
+
+.static-photo {
+  position: absolute;
+  bottom: 10px; /* Ajuste conforme necessário */
+  left: 50px;   /* Ajuste conforme necessário */
+  width: 520px; /* Ajuste conforme necessário */
+  z-index: 10;
+}
+
+.custom-container {
+  margin-left: 1rem !important;  /* Ajuste conforme necessário */
+  margin-right: 1rem !important; /* Ajuste conforme necessário */
 }
