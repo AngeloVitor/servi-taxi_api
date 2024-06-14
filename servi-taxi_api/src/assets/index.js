@@ -18,6 +18,10 @@ import photolayout1 from './photolayout1.svg'
 import photolayout2 from './photolayout2.svg'
 import photolayout3 from './photolayout3.svg'
 import downloadApp from './downloadApp.svg';
+import phoneBlack from './phoneBlack.svg';
+import pointer from './pointer.svg';
+import taxiMoney from './taxiMoney.svg';
+import voucher from './voucher.svg';
 
 
 export {
@@ -41,4 +45,8 @@ export {
   photolayout2,
   photolayout3,
   downloadApp,
+  phoneBlack,
+  pointer,
+  taxiMoney,
+  voucher,
 }

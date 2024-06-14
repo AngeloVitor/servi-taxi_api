@@ -73,3 +73,21 @@
   margin-left: 1rem !important;  /* Ajuste conforme necessário */
   margin-right: 1rem !important; /* Ajuste conforme necessário */
 }
+
+.img-hover-effect {
+  filter: grayscale(100%); /* Aplica preto e branco */
+  transition: filter 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.img-hover-effect:hover {
+  filter: grayscale(0%); /* Remove o efeito preto e branco ao passar o mouse */
+}
+
+.img-large {
+  width: 80%; /* Ajuste a largura conforme necessário */
+  height: auto;
+}
+
+.margin-taxi{
+  margin-bottom: 100px;
+}
