@@ -25,7 +25,7 @@ export const ServiTaxiComponent = () => {
   ];
 
   return (
-    <Container className='margin-taxi'>
+    <Container className='margin-bottom-component'>
       <div className="text-center my-4 section-title">
         <h2>Serviços</h2>
       </div>

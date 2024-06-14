@@ -4,6 +4,9 @@ import { ServiceComponent } from './component/ServiceComponent';
 import './styles/style.css';
 import { PhotosComponent } from './component/PhotosComponent';
 import { ServiTaxiComponent } from './component/ServiTaxiComponent';
+import { HistoryComponent } from './component/HistoryComponent';
+import { ContactComponent } from './component/ContactComponent';
+
 
 export const App = () => {
   return (
@@ -12,6 +15,8 @@ export const App = () => {
       <PhotosComponent />
       <ServiTaxiComponent/>
       <ServiceComponent />
+      <HistoryComponent />
+      <ContactComponent />
     </div>
   );
 };

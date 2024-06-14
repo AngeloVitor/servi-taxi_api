@@ -94,7 +94,7 @@ export const ServiceComponent = () => {
     // Adicione todos os serviços aqui...
   ];
   return (
-    <Container>
+    <Container className='margin-bottom-component'>
       <div className="text-center my-4 section-title">
         <h2>Serviços</h2>
       </div>
