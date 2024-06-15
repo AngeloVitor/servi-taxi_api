@@ -23,6 +23,7 @@ import pointer from './pointer.svg';
 import taxiMoney from './taxiMoney.svg';
 import voucher from './voucher.svg';
 import backHistory from './backHistory.svg';
+import phoneServiTaxi from './phoneServiTaxi.svg';
 
 
 export {
@@ -50,5 +51,6 @@ export {
   pointer,
   taxiMoney,
   voucher,
-  backHistory
+  backHistory,
+  phoneServiTaxi,
 }
