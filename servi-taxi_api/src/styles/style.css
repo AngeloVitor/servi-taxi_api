@@ -26,9 +26,13 @@
 }
 
 .section-title span {
-  font-weight: bold;
-  font-size: 1.5em; 
   color: #002e63;  
+  font-family: Exo;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 39.87px;
+  letter-spacing: 0.045em;
+  text-align: left;
 }
 
 .card {
@@ -132,3 +136,95 @@
   object-fit: cover;
   opacity: 0.5; /* Ajuste a opacidade conforme necessário */
 }
+
+/* font style */
+
+.navbar-font{
+  font-family: Exo;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26.58px;
+  letter-spacing: 0.045em;
+  text-align: left;
+}
+
+.download-app-font{
+  font-family: Exo;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 39.87px;
+  letter-spacing: 0.045em;
+  text-align: left;
+  background: #FFFFFF;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.style-tittle{
+  font-family: Exo;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 39.87px;
+  letter-spacing: 0.045em;
+  text-align: left;
+}
+
+.text-describe{
+  font-family: Exo;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 33.23px;
+  letter-spacing: 0.045em;
+  text-align: center;
+}
+
+.text-description-service{
+  font-family: Exo;
+  font-size: 15.39px;
+  font-weight: 500;
+  line-height: 20.46px;
+  letter-spacing: 0.045em;
+  text-align: center;
+}
+
+.service-tittle{
+  color: #002e63;  
+  font-family: Exo;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 39.87px;
+  letter-spacing: 0.045em;
+  text-align: left;
+}
+
+.years-text{
+  font-family: Exo;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 79.74px;
+  letter-spacing: 0.045em;
+  text-align: left;
+  color: #002e63;
+  margin: 0;  
+}
+
+ h4 {
+  font-family: Exo;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 53.16px;
+  letter-spacing: 0.045em;
+  text-align: left;
+  margin: 0
+}
+.text-history {
+  font-family: Exo;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.92px;
+  letter-spacing: 0.045em;
+  text-align: left;
+}
+

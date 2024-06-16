@@ -17,11 +17,11 @@ export const NavbarComponent = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto w-100">
-          <Nav.Link href="#">Home</Nav.Link>
-          <Nav.Link href="#">Serviços</Nav.Link>
-          <Nav.Link href="#">Nossa História</Nav.Link>
-          <Nav.Link href="#">Convênios</Nav.Link>
-          <Nav.Link href="#">Contato</Nav.Link>
+          <Nav.Link href="#" className='navbar-font'>Home</Nav.Link>
+          <Nav.Link href="#" className='navbar-font'>Serviços</Nav.Link>
+          <Nav.Link href="#" className='navbar-font'>Nossa História</Nav.Link>
+          <Nav.Link href="#" className='navbar-font'>Convênios</Nav.Link>
+          <Nav.Link href="#" className='navbar-font'>Contato</Nav.Link>
           <Nav.Link href="#">
             <i className="fab fa-facebook-f"></i>
           </Nav.Link>

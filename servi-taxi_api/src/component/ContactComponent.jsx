@@ -7,12 +7,12 @@ export const ContactComponent = () => {
   return (
     <Container className="contact-component my-4">
       <div className="text-center section-title">
-        <h2>Contato</h2>
+        <h2 className='service-tittle'>Contato</h2>
       </div>
       <Row>
         <Col md={6}>
           <h4>Saiba como</h4>
-          <h2 className="text-primary">falar com a gente!!</h2>
+          <h2 className="years-text">falar com a gente!!</h2>
           <p>
             <i className="bi bi-geo-alt-fill"></i> Rua do Sossego, 563, Santo
             Amaro, Recife - PE | CEP 50100-150

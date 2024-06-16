@@ -9,25 +9,31 @@ export const ServiTaxiComponent = () => {
     {
       img: phoneBlack,
       text: 'Baixe o app SERVITAXI',
+      className: 'text-describe',
     },
     {
       img: pointer,
       text: 'Solicite ou agende seu taxi',
+      className: 'text-describe',
     },
     {
       img: taxiMoney,
       text: 'Controle suas despesas de taxi',
+      className: 'text-describe',
     },
     {
       img: voucher,
       text: 'Sistema de gestão de voucher eletrônico',
+      className: 'text-describe',
     },
   ];
 
   return (
-    <Container className='margin-bottom-component'>
+    <Container className="margin-bottom-component">
       <div className="text-center my-4 section-title">
-        <h2>Serviços</h2>
+        <h2 className="style-tittle">
+          Chame a <span>SERVITAXI! </span>É muito fácil!
+        </h2>
       </div>
       <Row>
         {imgs.map((img, index) => (
@@ -39,10 +45,11 @@ export const ServiTaxiComponent = () => {
                 className={`img-hover-effect ${index === 2 ? 'img-large' : ''}`}
               />
             </Card>
-            <Card.Text className='mt-2 text-center'>{img.text}</Card.Text>
+            <Card.Text className={`mt-4 text-center ${img.className}`}>{img.text}</Card.Text>
           </Col>
         ))}
       </Row>
     </Container>
   );
 };
+
