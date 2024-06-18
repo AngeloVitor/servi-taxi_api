@@ -1,22 +1,26 @@
-import React, { useRef } from 'react';
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import React from 'react';
+import { Navbar, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from '../assets/logo.svg';
 import '../styles/style.css';
 
-export const NavbarComponent = () => {
-  const homeRef = useRef(null);
-  const servicesRef = useRef(null);
-  const historyRef = useRef(null);
-  const agreementsRef = useRef(null);
-  const contactRef = useRef(null);
-
+export const NavbarComponent = ({
+  homeRef,
+  servicesRef,
+  historyRef,
+  agreementsRef,
+  contactRef,
+}) => {
   const handleScroll = (ref) => {
-    ref.current.scrollIntoView({ behavior: 'smooth' });
+    const topOffset =
+      ref.current.getBoundingClientRect().top +
+      window.scrollY -
+      window.innerHeight / 2;
+    window.scrollTo({ top: topOffset, behavior: 'smooth' });
   };
 
   return (
-    <div ref={homeRef} id="home">
+    <div id="home">
       <Navbar expand="lg" className="px-5 py-2 navbar-center navbar-custom">
         <Navbar.Brand href="#">
           <img
@@ -27,7 +31,7 @@ export const NavbarComponent = () => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ml-auto w-100">
+          <Nav className="ml-auto w-100 justify-content-center gap-4">
             <Nav.Link
               onClick={() => handleScroll(homeRef)}
               className="navbar-font"
@@ -44,7 +48,7 @@ export const NavbarComponent = () => {
               onClick={() => handleScroll(historyRef)}
               className="navbar-font"
             >
-              Nossa História
+              História
             </Nav.Link>
             <Nav.Link
               onClick={() => handleScroll(agreementsRef)}
