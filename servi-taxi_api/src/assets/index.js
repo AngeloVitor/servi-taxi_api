@@ -24,6 +24,9 @@ import taxiMoney from './taxiMoney.svg';
 import voucher from './voucher.svg';
 import backHistory from './backHistory.svg';
 import phoneServiTaxi from './phoneServiTaxi.svg';
+import pointContact from './pointContact.svg';
+import emailContact from './emailContact.svg';
+import phoneContact from './phoneContact.svg';
 
 
 export {
@@ -53,4 +56,7 @@ export {
   voucher,
   backHistory,
   phoneServiTaxi,
+  pointContact,
+  emailContact,
+  phoneContact,
 }

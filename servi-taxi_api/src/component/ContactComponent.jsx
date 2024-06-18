@@ -2,27 +2,29 @@ import React from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/style.css';
+import { pointContact, emailContact, phoneContact } from '../assets/index';
 
 export const ContactComponent = () => {
   return (
     <Container className="contact-component my-4">
       <div className="text-center section-title">
-        <h2 className='service-tittle'>Contato</h2>
+        <h2 className="service-tittle">Contato</h2>
       </div>
       <Row>
         <Col md={6}>
           <h4>Saiba como</h4>
           <h2 className="years-text">falar com a gente!!</h2>
-          <p>
-            <i className="bi bi-geo-alt-fill"></i> Rua do Sossego, 563, Santo
-            Amaro, Recife - PE | CEP 50100-150
+          <p className="text-cep">
+            <img src={pointContact} alt="pointContact" /> Rua do Sossego, 563,
+            Santo Amaro, Recife - PE | CEP 50100-150
           </p>
-          <p>
-            <i className="bi bi-envelope-fill"></i>{' '}
+          <p className="text-sac-phone">
+            <img src={emailContact} alt="emailContact" />
             <a href="mailto:sac@servitaxi.com.br">sac@servitaxi.com.br</a>
           </p>
-          <p>
-            <i className="bi bi-telephone-fill"></i> 81 2122-0202 | 81 3036-8080
+          <p className="text-sac-phone">
+            <img src={phoneContact} alt="phoneContact" /> 81 2122-0202 | 81
+            3036-8080
           </p>
         </Col>
         <Col md={6}>

@@ -1,4 +1,4 @@
-import React from 'react';
+import { React, useRef } from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { phoneBlack, pointer, taxiMoney, voucher } from '../assets/index.js';
@@ -45,11 +45,12 @@ export const ServiTaxiComponent = () => {
                 className={`img-hover-effect ${index === 2 ? 'img-large' : ''}`}
               />
             </Card>
-            <Card.Text className={`mt-4 text-center ${img.className}`}>{img.text}</Card.Text>
+            <Card.Text className={`mt-4 text-center ${img.className}`}>
+              {img.text}
+            </Card.Text>
           </Col>
         ))}
       </Row>
     </Container>
   );
 };
-

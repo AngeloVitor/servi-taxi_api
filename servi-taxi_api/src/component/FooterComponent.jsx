@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
 export const FooterComponent = () => {
@@ -7,24 +7,35 @@ export const FooterComponent = () => {
       <Container>
         <Row className="justify-content-center text-center">
           <Col xs={12} className="social-media-section">
-            <p>Acompanhe as nossas <span className="highlight">Redes Sociais</span></p>
+            <p className="text-describe">
+              Acompanhe as nossas{' '}
+              <span className="highlight">Redes Sociais</span>
+            </p>
             <div className="social-icons">
-              <a href="https://www.instagram.com/servitaxirecife" target="_blank" rel="noopener noreferrer">
-                
-                <span>@servitaxirecife</span>
+              <a
+                href="https://www.instagram.com/servitaxirecife"
+                target="_blank"
+                rel="noopener noreferrer" className='text-decoration'
+              >
+                <span className='social-media-text'>@servitaxirecife</span>
               </a>
-              <a href="https://www.facebook.com/servitaxirecife" target="_blank" rel="noopener noreferrer">
-               
-              </a>
+              <a
+                href="https://www.facebook.com/servitaxirecife"
+                target="_blank"
+                rel="noopener noreferrer"
+              ></a>
             </div>
           </Col>
         </Row>
         <Row className="justify-content-center text-center">
           <Col xs={12} className="copyright-section">
-            <p>© 2019 Copyright Servitaxi - 24 Horas com você! Todos os direitos reservados.</p>
+            <p>
+              © 2019 Copyright Servitaxi - 24 Horas com você! Todos os direitos
+              reservados.
+            </p>
           </Col>
         </Row>
       </Container>
     </footer>
-  )
-}
+  );
+};
