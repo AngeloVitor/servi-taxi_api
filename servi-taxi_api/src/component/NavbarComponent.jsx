@@ -30,8 +30,8 @@ export const NavbarComponent = ({
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ml-auto w-100 justify-content-center gap-4">
+        <Navbar.Collapse id="basic-navbar-nav" className='justify-center'>
+          <Nav className="ml-auto w-100 align-itens-navbar gap-4">
             <Nav.Link
               onClick={() => handleScroll(homeRef)}
               className="navbar-font"
@@ -61,12 +61,6 @@ export const NavbarComponent = ({
               className="navbar-font"
             >
               Contato
-            </Nav.Link>
-            <Nav.Link href="#">
-              <i className="fab fa-facebook-f"></i>
-            </Nav.Link>
-            <Nav.Link href="#instagram">
-              <i className="fab fa-instagram"></i>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

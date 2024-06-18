@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram, faFacebook  } from '@fortawesome/free-brands-svg-icons';
 export const FooterComponent = () => {
   return (
     <footer className="footer">
@@ -15,15 +16,18 @@ export const FooterComponent = () => {
               <a
                 href="https://www.instagram.com/servitaxirecife"
                 target="_blank"
-                rel="noopener noreferrer" className='text-decoration'
+                rel="noopener noreferrer"
               >
-                <span className='social-media-text'>@servitaxirecife</span>
+                <FontAwesomeIcon icon={faInstagram} size="3x" color="#0E4686"/>
               </a>
+              <span className="social-media-text text-decoration">@servitaxirecife</span>
               <a
                 href="https://www.facebook.com/servitaxirecife"
                 target="_blank"
                 rel="noopener noreferrer"
-              ></a>
+              >
+                <FontAwesomeIcon icon={faFacebook } size="3x" color="#0E4686"/>
+              </a>
             </div>
           </Col>
         </Row>

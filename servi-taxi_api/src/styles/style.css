@@ -5,7 +5,21 @@
 }
 
 .background {
+  position: relative;
   background: linear-gradient(180deg, #FFFFFF 62.12%, #E2ECFF 100%);
+}
+
+.background::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/background.svg');
+  background-repeat: repeat;
+  background-size: contain;
+  opacity: 0.2; 
+  z-index: 0; 
+  pointer-events: none; 
 }
 
 .linear-gradient  {
@@ -54,8 +68,13 @@
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1000; /* Certifique-se de que o Navbar fique acima de outros elementos */
-  background-color: rgba(255, 255, 255, 0.5); 
+  z-index: 1000;
+  backdrop-filter: blur(10px); 
+  transition: background-color 0.3s ease; 
+}
+
+.navbar-custom:hover {
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .carousel-container {
@@ -133,12 +152,28 @@
 .background-image {
   width: 100%;
   height: 100%;
-  object-fit: cover;
   opacity: 0.5; /* Ajuste a opacidade conforme necessário */
 }
 
 .social-icons{
-  background-color: #292860;
+  background-color: #878bb0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  gap: 10px
+}
+
+.align-itens-navbar{
+  max-width: 1000px !important;
+  display: flex;
+  justify-content: space-around;
+}
+
+.justify-center{
+  display: flex;
+  justify-content: center;
+  margin-right: 220px;
 }
 
 /* font style */
@@ -150,6 +185,7 @@
   line-height: 26.58px;
   letter-spacing: 0.045em;
   text-align: left;
+  color: #0E4686
 }
 
 .download-app-font{
@@ -182,6 +218,7 @@
   line-height: 33.23px;
   letter-spacing: 0.045em;
   text-align: center;
+  margin-bottom: 0px;
 }
 
 .text-description-service{
@@ -248,7 +285,11 @@
   line-height: 23.92px;
   letter-spacing: 0.045em;
   text-align: left;
-  color: #0E4686
+  color: #0E4686;
+}
+
+.aaa{
+  text-decoration: none;
 }
 
 .highlight{
