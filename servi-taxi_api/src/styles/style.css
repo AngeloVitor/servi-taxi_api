@@ -299,10 +299,6 @@
   color: #0E4686;
 }
 
-.aaa{
-  text-decoration: none;
-}
-
 .highlight{
   font-family: Exo;
   font-size: 30px;
@@ -337,4 +333,8 @@
   letter-spacing: 0.045em;
   text-align: center;
   color: #0E4686
+}
+
+.text-button-map{
+  
 }

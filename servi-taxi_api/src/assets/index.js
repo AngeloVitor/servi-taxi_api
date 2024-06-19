@@ -28,6 +28,28 @@ import pointContact from './pointContact.svg';
 import emailContact from './emailContact.svg';
 import phoneContact from './phoneContact.svg';
 import brazilAll from './brazilAll.svg';
+import Alagoas from './Alagoas.svg';
+import Amazonas from './Amazonas.svg';
+import Bahia from './Bahia.svg';
+import Ceara from './Ceara.svg';
+import DistritoFederal from './DistritoFederal.svg';
+import EspiritoSanto from './EspiritoSanto.svg';
+import Goias from './Goias.svg';
+import Maranhao from './Maranhao.svg';
+import MatoGrosso from './MatoGrosso.svg';
+import MatoGrossoSul from './MatoGrossoSul.svg';
+import MinasGerais from './MinasGerais.svg';
+import Paraiba from './Paraiba.svg';
+import Parana from './Parana.svg';
+import Pernambuco from './Pernambuco.svg';
+import Piaui from './Piaui.svg';
+import RiodeJenairo from './RiodeJenairo.svg';
+import RioGrandedoNorte from './RioGrandedoNorte.svg';
+import RioGrandedoSul from './RioGrandedoSul.svg';
+import SantaCatarina from './SantaCatarina.svg';
+import SaoPaulo from './SaoPaulo.svg';
+import Sergipe from './Sergipe.svg';
+
 
 
 export {
@@ -61,4 +83,25 @@ export {
   emailContact,
   phoneContact,
   brazilAll,
+  Alagoas,
+  Amazonas,
+  Bahia,
+  Ceara,
+  DistritoFederal,
+  EspiritoSanto,
+  Goias,
+  Maranhao,
+  MatoGrosso,
+  MatoGrossoSul,
+  MinasGerais,
+  Paraiba,
+  Parana,
+  Pernambuco,
+  Piaui,
+  RiodeJenairo,
+  RioGrandedoNorte,
+  RioGrandedoSul,
+  SantaCatarina,
+  SaoPaulo,
+  Sergipe,
 }
