@@ -187,6 +187,80 @@
   border-color:  #0E4686;
 }
 
+.text-button-map{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  gap: 10px;
+  width: 300px;
+  height: 48px;
+  background: #FFFFFF;
+  box-shadow: 5px 6px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 33px;
+  color: #0E4686
+  }
+  
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+  color: #003366; /* Cor azul escuro */
+  font-weight: bold;
+}
+
+.modal-body {
+  font-size: 1rem;
+  color: #003366;
+}
+
+.modal-body ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.modal-body li {
+  display: flex;
+  justify-content: space-between;
+  color: #003366;
+  margin-bottom: 0.5rem;
+}
+
+.modal-body li .name {
+  color: #FF0000; /* Cor vermelha */
+  font-weight: bold;
+}
+
+.modal-body li .phone {
+  color: #003366;
+}
+
+.modal-footer {
+  border-top: none;
+  justify-content: center;
+}
+
+.modal-footer .btn {
+  background-color: #003366;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 0.5rem;
+}
+
+
 /* font style */
 
 .navbar-font{
@@ -334,31 +408,3 @@
   text-align: center;
   color: #0E4686
 }
-
-.text-button-map{
-  /* Component 1 */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 15px;
-gap: 10px;
-width: 300px;
-height: 48px;
-background: #FFFFFF;
-box-shadow: 5px 6px 4px rgba(0, 0, 0, 0.25);
-border-radius: 10px;
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-font-family: 'Exo';
-font-style: normal;
-font-weight: 600;
-font-size: 25px;
-line-height: 33px;
-color: #0E4686
-}
-
