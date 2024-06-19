@@ -336,5 +336,29 @@
 }
 
 .text-button-map{
-  
+  /* Component 1 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px;
+gap: 10px;
+width: 300px;
+height: 48px;
+background: #FFFFFF;
+box-shadow: 5px 6px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+font-family: 'Exo';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 33px;
+color: #0E4686
 }
+
