@@ -303,7 +303,7 @@ export const ConvenioComponent = () => {
       </div>
       <Row>
         <Col md={5} className="z-1">
-          <img src={selectedImage} alt="Mapa do Brasil" className="w-75" />
+          <img src={selectedImage} alt="Mapa do Brasil" className="w-100" />
         </Col>
         <Col md={7} className="z-1">
           <Row>
