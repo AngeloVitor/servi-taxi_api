@@ -7,6 +7,7 @@ import { ServiTaxiComponent } from './component/ServiTaxiComponent';
 import { HistoryComponent } from './component/HistoryComponent';
 import { ContactComponent } from './component/ContactComponent';
 import { FooterComponent } from './component/FooterComponent';
+import {ConvenioComponent} from './component/ConvenioComponent'
 
 export const App = () => {
   const homeRef = useRef(null);
@@ -35,7 +36,7 @@ export const App = () => {
         <HistoryComponent />
       </div>
       <div ref={agreementsRef}>
-        
+        <ConvenioComponent/>
       </div>
       <div ref={contactRef}>
         <ContactComponent />

@@ -176,6 +176,17 @@
   margin-right: 220px;
 }
 
+.send-btn{
+  font-family: Exo;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 39.87px;
+  letter-spacing: 0.045em;
+  text-align: left;
+  background: #0E4686;
+  border-color:  #0E4686;
+}
+
 /* font style */
 
 .navbar-font{

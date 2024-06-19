@@ -27,6 +27,7 @@ import phoneServiTaxi from './phoneServiTaxi.svg';
 import pointContact from './pointContact.svg';
 import emailContact from './emailContact.svg';
 import phoneContact from './phoneContact.svg';
+import brazilAll from './brazilAll.svg';
 
 
 export {
@@ -59,4 +60,5 @@ export {
   pointContact,
   emailContact,
   phoneContact,
+  brazilAll,
 }

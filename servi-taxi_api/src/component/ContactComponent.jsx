@@ -51,7 +51,7 @@ export const ContactComponent = () => {
                 placeholder="Escreva sua mensagem..."
               />
             </Form.Group>
-            <Button variant="primary" type="submit">
+            <Button type="submit" className='send-btn'>
               Enviar
             </Button>
           </Form>
