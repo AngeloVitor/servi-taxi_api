@@ -311,6 +311,7 @@ export const ConvenioComponent = () => {
               <Col xs={6} key={state.name}>
                 <Button
                   onMouseEnter={() => setSelectedImage(state.image)}
+                  onMouseLeave={() => setSelectedImage(brazilAll)}
                   onClick={() => handleShowModal(state)}
                   className="my-2 mx-1 text-button-map"
                   variant="outline-primary"
@@ -324,7 +325,7 @@ export const ConvenioComponent = () => {
         </Col>
       </Row>
 
-      <Modal show={showModal} onHide={handleCloseModal}>
+      <Modal show={showModal} onHide={handleCloseModal} className='p-0 m-0'>
         <Modal.Header closeButton>
           <Modal.Title>{selectedState?.name}</Modal.Title>
         </Modal.Header>
